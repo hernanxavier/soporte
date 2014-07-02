@@ -45,19 +45,19 @@ THIRD_PARTY_APPS = (
     #'smart_selects',
 
     #Tema Para administracion Django http://django-suit.readthedocs.org/en/latest/index.html
-    'suit',
+    ##'suit',
 
     # Extensiones de django (trabaja con pygraphviz que dibuja diagramas entidad relación )
-    'django_extensions',
+    ##'django_extensions',
 
     # Sistema de migraciones para Django http://south.readthedocs.org/en/latest/installation.html
-    'south',
+    ##'south',
 
     # Permisos para Django http://django-guardian.readthedocs.org/en/v1.2/
-    'guardian',
+    ##'guardian',
 
     # Aplicacion que ayuda al ordenamiento de los menus http://django-suit.readthedocs.org/en/latest/sortables.html
-    'mptt',
+    ##'mptt',
 
     # DJANGO ALLAUTH The Django sites framework is required  http://django-allauth.readthedocs.org/en/latest/#
     #'django.contrib.sites',

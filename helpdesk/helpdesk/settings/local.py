@@ -56,15 +56,17 @@ EMAIL_USE_TLS = True
 
 
 # Variable para Guardian
-ANONYMOUS_USER_ID = -1
+#ANONYMOUS_USER_ID = -1
 
 
 ###### Configuracion de la Aplicacion Django SUIT #######
-
+"""
 TEMPLATE_CONTEXT_PROCESSORS = TCP + (
     'django.core.context_processors.request',
 )
+"""
 
+"""
 SUIT_CONFIG = {
 
     'ADMIN_NAME': 'ADMINISTRACIÓN',
@@ -79,10 +81,12 @@ SUIT_CONFIG = {
         'helpdesk': 'icon-cog',
     },
 }
+"""
 
+"""
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
     'django.contrib.staticfiles.finders.FileSystemFinder',
 )
-
+"""
 ##############################################
